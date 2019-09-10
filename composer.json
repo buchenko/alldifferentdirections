@@ -1,0 +1,21 @@
+{
+    "name": "buchenko/alldifferentdirections",
+    "description": "all different directions https://open.kattis.com/problems/alldifferentdirections",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduard Buchenko",
+            "email": "buchenko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "buchenko\\alldifferentdirections\\examples\\": "examples/",
+            "buchenko\\alldifferentdirections\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
